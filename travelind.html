@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<title>Travel.ind</title>
+ 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Places To Visit</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+  
+    <div class="w3-center w3-padding-16">Places To Visit</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+   
+  
+   
+ <!-- Fourth Photo Grid-->
+ <div class="w3-row-padding w3-padding-16 w3-center">
+  <div class="w3-quarter">
+    <img src="Valley-of-flowers-uttrakhand.jpg" alt="Valley-of-flowers-uttrakhand" style="width:100%">
+    <h3>Valley-of-flowers-uttrakhand</h3>
+    <p>Valley of Flowers National Park is an Indian national park, located in North Chamoli and Pithoragarh,
+       in the state of Uttarakhand and is known for its meadows of endemic alpine flowers and the variety of flora. </p>
+  </div>
+  <div class="w3-quarter">
+    <img src="VelasMaharashtra.jpg" alt="VelasMaharashtra" style="width:100%">
+    <h3>Velas Maharashtra</h3>
+    <p>Velas is a village in Ratnagiri district of Maharashtra. It is noted as a birthplace of Nana Phadnis.He was sachiva- a secretary in Peshawai in Pune.
+       It is also famous for its beaches and turtle festival which is held by the local people of Velas and Sahyadri Nisarg Mitra, Chiploon. </p>
+  </div>
+  <div class="w3-quarter">
+    <img src="YumthangValleySikkim.jpg" alt="YumthangValleySikkim" style="width:100%">
+    <h3>Sanddunes-Jaisalmer</h3>
+    <p>The Yumthang Valley or Sikkim Valley of Flowers sanctuary, is a nature sanctuary with river, hot springs, yaks and grazing pasture on
+       rolling meadows surrounded by the Himalayan mountains in the North Sikkim district of Sikkim state in India </p>
+  </div>
+  <div class="w3-quarter">
+    <img src="ZiroValley.jpg" alt="ZiroValley" style="width:100%">
+    <h3>Ziro Valley</h3>
+    <p> It is famous for its surrounding pine-clad gentle hills and its rice fields. Ziro is home to the Apatani tribe.
+      The lush greenery with clear blue skies makes the entire place look picturesque and magical. Spotting bird and animals is sure to excite anyone who visits Ziro. 
+      Another ideal time to visit Ziro is in Early Winters from October to November when the valley is enveloped in snow. </p>
+  </div>
+</div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="page2.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="page3.html" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="page4.html" class="w3-bar-item w3-button w3-hover-black">4</a>
+       
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About Us</h3><br>
+    <img src="taisha.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>Why i decided to build this website and who i am !</b></h4>
+      <h6><i>Travel.ind</i></h6>
+      <p>Hi! im taisha karsiya, a 13 year old from mumbai.we've always been taught about indias beautiful culture- its food, diversity,clothes and languages 
+        but there is so much more to my amazing country than that. i decided to build a website that would showcase the more nature inclined/non cultural part 
+        of india. its breathtaking waterfaals and fields,the beaches and even the sandunes.
+        enjoy! </p>
+    </div>
+  </div>
+  <hr>
+  
+   
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
